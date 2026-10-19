@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our objectives · Autism Society of India</title>
+  <meta name="description" content="Founded by parents and professionals in May 2006, ASI is a national body for concerted action on all matters relating to persons with autism and their families.">
+  <meta name="theme-color" content="#2F5E9E">
+  <link rel="icon" href="https://autismsocietyofindia.org/wp-content/uploads/2016/11/cropped-asi_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    // Apply saved accessibility preferences before first paint to avoid a flash.
+    (function () {
+      try {
+        var p = JSON.parse(localStorage.getItem("asi-a11y") || "{}");
+        var d = document.documentElement;
+        Object.keys(p).forEach(function (k) { if (p[k]) d.setAttribute("data-" + k, p[k]); });
+      } catch (e) {}
+    })();
+  </script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body class="">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="topbar">
+    <div class="wrap topbar__inner">
+      <p class="topbar__contact">
+        <a href="mailto:autismsocietyofindia2006@gmail.com"><span aria-hidden="true">✉</span> autismsocietyofindia2006@gmail.com</a>
+        <span class="topbar__sep" aria-hidden="true">·</span>
+        <span>Helpline: coming soon</span>
+      </p>
+      <div class="topbar__tools">
+        <button class="tool-btn" type="button" data-read-aloud aria-pressed="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg>
+          <span data-read-label>Read aloud</span>
+        </button>
+        <button class="tool-btn" type="button" aria-expanded="false" aria-controls="a11y-panel" data-a11y-toggle>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2"/><path d="M20 8.5c-2.6.7-5.3 1-8 1s-5.4-.3-8-1l-.5 2c2 .5 4 .9 6 1v3.3L7.8 21l1.9.7L12 16l2.3 5.7 1.9-.7-1.7-6.2V11.5c2-.1 4-.5 6-1l-.5-2z"/></svg>
+          Accessibility
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <section id="a11y-panel" class="a11y-panel" aria-labelledby="a11y-title" hidden>
+    <div class="wrap a11y-panel__inner">
+      <div class="a11y-panel__head">
+        <h2 id="a11y-title">Make this site work for you</h2>
+        <p>Your choices are saved on this device.</p>
+      </div>
+      <div class="a11y-grid">
+        <fieldset class="a11y-group">
+          <legend>Text size</legend>
+          <div class="seg" role="group">
+            <button type="button" data-pref="size" data-value="" aria-pressed="true">Standard</button>
+            <button type="button" data-pref="size" data-value="lg" aria-pressed="false">Large</button>
+            <button type="button" data-pref="size" data-value="xl" aria-pressed="false">Largest</button>
+          </div>
+        </fieldset>
+        <fieldset class="a11y-group">
+          <legend>Colours</legend>
+          <div class="seg" role="group">
+            <button type="button" data-pref="theme" data-value="" aria-pressed="true">Auto</button>
+            <button type="button" data-pref="theme" data-value="light" aria-pressed="false">Light</button>
+            <button type="button" data-pref="theme" data-value="dark" aria-pressed="false">Dark</button>
+            <button type="button" data-pref="theme" data-value="contrast" aria-pressed="false">High contrast</button>
+          </div>
+        </fieldset>
+        <div class="a11y-group a11y-switches">
+          <label class="switch"><input type="checkbox" data-pref="calm" value="on"><span>Calm mode <small>Muted colours, no animation</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="font" value="readable"><span>Readable font <small>Wider, rounder letters</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="spacing" value="wide"><span>Extra spacing <small>More room between lines and words</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="links" value="underline"><span>Highlight links <small>Underline and outline every link</small></span></label>
+        </div>
+      </div>
+      <div class="a11y-panel__foot">
+        <button type="button" class="btn btn--ghost" data-a11y-reset>Reset to default</button>
+        <button type="button" class="btn" data-a11y-close>Done</button>
+      </div>
+    </div>
+  </section>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/cropped-asi_logo.png" alt="" width="44" height="44">
+        <span class="brand__text"><strong>Autism Society of India</strong><small>Supporting families since 2006</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html" data-nav>Home</a></li>
+          <li class="has-sub" data-section="about" data-active>
+            <button type="button" aria-expanded="false" class="sub-toggle">About us</button>
+            <ul class="sub">
+              <li><a href="about-autism.html" data-nav>About autism</a></li>
+              <li><a href="objectives.html" aria-current="page" data-nav>Our objectives</a></li>
+              <li><a href="team.html" data-nav>Our team</a></li>
+              <li><a href="reports.html" data-nav>Reports &amp; documents</a></li>
+            </ul>
+          </li>
+          <li><a href="activities.html" data-nav>Activities</a></li>
+          <li><a href="resources.html" data-nav>Resources</a></li>
+          <li><a href="blog.html" data-nav data-section="blog">Blog</a></li>
+          <li><a href="gallery.html" data-nav>Gallery</a></li>
+          <li><a href="contact.html" data-nav>Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn--ghost" href="get-involved.html" data-nav>Become a member</a>
+          <a class="btn" href="donate.html" data-nav>Donate</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+<header class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li>About us</li><li aria-current="page">Our objectives</li></ol></nav>
+    <p class="eyebrow">About ASI</p>
+    <h1>Our objectives</h1>
+    <p class="lead">Autism Society of India was founded by a team of parents and professionals in May 2006.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:2rem" aria-label="At a glance">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><p class="stat__num">May 2006</p><p>Founded by a team of parents and professionals</p></div>
+      <div class="stat"><p class="stat__num" data-count="800" data-suffix="+">800+</p><p>Members across India</p></div>
+      <div class="stat"><p class="stat__num">National</p><p>A body for concerted action on all matters relating to persons with ASD and their families</p></div>
+    </div>
+    <div class="callout callout--sun" style="margin-top:2rem">
+      <p><strong>Major goal:</strong> advocacy for the inclusion of autism as a disability in the PWD Act of 1995.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint" aria-labelledby="aim-h">
+  <div class="wrap grid grid--2" style="align-items:start">
+    <div>
+      <p class="eyebrow">The aim</p>
+      <h2 id="aim-h">What we exist to do.</h2>
+      <p>The aim of Autism Society of India is to function as a national body for concerted action on all matters relating to persons with Autism Spectrum Disorders and their families.</p>
+      <p>Our objectives aim to improve the quality of life of individuals with ASD by securing for them all the fundamental rights enjoyed by every citizen under the Constitution of India.</p>
+    </div>
+    <div class="panel">
+      <h3>This includes the provision of</h3>
+      <ul class="pillars" style="margin-top:.5rem">
+        <li>Remedial</li><li>Educational</li><li>Training</li><li>Employment</li><li>Respite</li><li>Residential</li><li>Welfare</li><li>Social security services</li><li>Legal rights and protection</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="commit-h">
+  <div class="wrap">
+    <p class="eyebrow">The Autism Society of India will</p>
+    <h2 id="commit-h">Five things we commit to.</h2>
+    <p class="small">Plus our promise: to be an independent and strong voice of the autism community across India.</p>
+    <ol class="steps" style="margin-top:1.5rem">
+      <li class="reveal"><h3>Representation</h3><p>Advocate to secure adequate representation in policymaking and implementing bodies of the Central and State Governments and local bodies.</p></li>
+      <li class="reveal"><h3>Legal rights</h3><p>Advocate for the legal rights and protection of persons with Autism Spectrum Disorders.</p></li>
+      <li class="reveal"><h3>Education &amp; social rights</h3><p>Advocate for education (special and inclusive) together with the social rights of persons with Autism Spectrum Disorders.</p></li>
+      <li class="reveal"><h3>Common bond</h3><p>Form a common bond of understanding, cooperation and action among professionals, parents, families and organisations working in intellectual and developmental disabilities, nationally and internationally.</p></li>
+      <li class="reveal"><h3>Awareness &amp; training</h3><p>Promote awareness and sensitisation in the community and in medical, legal, educational and related fields through awareness and training programmes.</p></li>
+    </ol>
+    <p style="margin-top:2rem"><a href="http://autismsocietyofindia.org/wp-content/uploads/2025/10/Aims-Objectives-of-ASI.pdf">Download the full Aims and Objectives <span class="small">(PDF)</span></a></p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0" aria-label="Join">
+  <div class="wrap">
+    <div class="cta-band">
+      <div><h2>Be part of the community.</h2><p>Parents, professionals and well-wishers — there’s a place for you in ASI.</p></div>
+      <div class="btn-row"><a class="btn" href="get-involved.html">Become a member</a><a class="btn btn--ghost" href="contact.html">Contact us</a></div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <p class="footer-brand">Autism Society of India</p>
+        <p>A national, parent-run society supporting families across India in navigating autism since 2006. A community of 750+ parent members and 200+ professionals.</p>
+        <p class="small">Registered under the Karnataka Societies Act · BLU-S160-2006-07</p>
+      </div>
+      <nav aria-label="Explore">
+        <h2 class="footer-h">Explore</h2>
+        <ul>
+          <li><a href="about-autism.html">About autism</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="reports.html">Reports &amp; documents</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Get involved">
+        <h2 class="footer-h">Get involved</h2>
+        <ul>
+          <li><a href="get-involved.html">Become a member</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="get-involved.html#volunteer">Volunteer</a></li>
+          <li><a href="http://www.nals.in/?page=search_programs&amp;prg_category_id=6#result" rel="noopener">Trek for Autism <span class="sr-only">(external site)</span></a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h">Sister NGOs</h2>
+        <ul>
+          <li><a href="https://alfaa.org/" rel="noopener">ALFAA <span class="sr-only">(external site)</span></a></li>
+          <li><a href="http://www.amazetrust.org/" rel="noopener">Amaze Charitable Trust <span class="sr-only">(external site)</span></a></li>
+        </ul>
+        <h2 class="footer-h">Contact</h2>
+        <p><a href="mailto:autismsocietyofindia2006@gmail.com">autismsocietyofindia2006@gmail.com</a><br>Replies within 2 business days</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© 2026 Autism Society of India. All rights reserved.</p>
+      <p><a href="#main" class="to-top">Back to top <span aria-hidden="true">↑</span></a></p>
+    </div>
+  </footer>
+
+  <div class="sr-only" aria-live="polite" id="live-region"></div>
+</body>
+</html>

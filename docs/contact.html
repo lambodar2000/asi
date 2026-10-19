@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Autism Society of India</title>
+  <meta name="description" content="Get in touch with the Autism Society of India. Email a parent volunteer, find our office in Bengaluru, or read answers to common questions.">
+  <meta name="theme-color" content="#2F5E9E">
+  <link rel="icon" href="https://autismsocietyofindia.org/wp-content/uploads/2016/11/cropped-asi_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    // Apply saved accessibility preferences before first paint to avoid a flash.
+    (function () {
+      try {
+        var p = JSON.parse(localStorage.getItem("asi-a11y") || "{}");
+        var d = document.documentElement;
+        Object.keys(p).forEach(function (k) { if (p[k]) d.setAttribute("data-" + k, p[k]); });
+      } catch (e) {}
+    })();
+  </script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body class="">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="topbar">
+    <div class="wrap topbar__inner">
+      <p class="topbar__contact">
+        <a href="mailto:autismsocietyofindia2006@gmail.com"><span aria-hidden="true">✉</span> autismsocietyofindia2006@gmail.com</a>
+        <span class="topbar__sep" aria-hidden="true">·</span>
+        <span>Helpline: coming soon</span>
+      </p>
+      <div class="topbar__tools">
+        <button class="tool-btn" type="button" data-read-aloud aria-pressed="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg>
+          <span data-read-label>Read aloud</span>
+        </button>
+        <button class="tool-btn" type="button" aria-expanded="false" aria-controls="a11y-panel" data-a11y-toggle>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2"/><path d="M20 8.5c-2.6.7-5.3 1-8 1s-5.4-.3-8-1l-.5 2c2 .5 4 .9 6 1v3.3L7.8 21l1.9.7L12 16l2.3 5.7 1.9-.7-1.7-6.2V11.5c2-.1 4-.5 6-1l-.5-2z"/></svg>
+          Accessibility
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <section id="a11y-panel" class="a11y-panel" aria-labelledby="a11y-title" hidden>
+    <div class="wrap a11y-panel__inner">
+      <div class="a11y-panel__head">
+        <h2 id="a11y-title">Make this site work for you</h2>
+        <p>Your choices are saved on this device.</p>
+      </div>
+      <div class="a11y-grid">
+        <fieldset class="a11y-group">
+          <legend>Text size</legend>
+          <div class="seg" role="group">
+            <button type="button" data-pref="size" data-value="" aria-pressed="true">Standard</button>
+            <button type="button" data-pref="size" data-value="lg" aria-pressed="false">Large</button>
+            <button type="button" data-pref="size" data-value="xl" aria-pressed="false">Largest</button>
+          </div>
+        </fieldset>
+        <fieldset class="a11y-group">
+          <legend>Colours</legend>
+          <div class="seg" role="group">
+            <button type="button" data-pref="theme" data-value="" aria-pressed="true">Auto</button>
+            <button type="button" data-pref="theme" data-value="light" aria-pressed="false">Light</button>
+            <button type="button" data-pref="theme" data-value="dark" aria-pressed="false">Dark</button>
+            <button type="button" data-pref="theme" data-value="contrast" aria-pressed="false">High contrast</button>
+          </div>
+        </fieldset>
+        <div class="a11y-group a11y-switches">
+          <label class="switch"><input type="checkbox" data-pref="calm" value="on"><span>Calm mode <small>Muted colours, no animation</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="font" value="readable"><span>Readable font <small>Wider, rounder letters</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="spacing" value="wide"><span>Extra spacing <small>More room between lines and words</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="links" value="underline"><span>Highlight links <small>Underline and outline every link</small></span></label>
+        </div>
+      </div>
+      <div class="a11y-panel__foot">
+        <button type="button" class="btn btn--ghost" data-a11y-reset>Reset to default</button>
+        <button type="button" class="btn" data-a11y-close>Done</button>
+      </div>
+    </div>
+  </section>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/cropped-asi_logo.png" alt="" width="44" height="44">
+        <span class="brand__text"><strong>Autism Society of India</strong><small>Supporting families since 2006</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html" data-nav>Home</a></li>
+          <li class="has-sub" data-section="about">
+            <button type="button" aria-expanded="false" class="sub-toggle">About us</button>
+            <ul class="sub">
+              <li><a href="about-autism.html" data-nav>About autism</a></li>
+              <li><a href="objectives.html" data-nav>Our objectives</a></li>
+              <li><a href="team.html" data-nav>Our team</a></li>
+              <li><a href="reports.html" data-nav>Reports &amp; documents</a></li>
+            </ul>
+          </li>
+          <li><a href="activities.html" data-nav>Activities</a></li>
+          <li><a href="resources.html" data-nav>Resources</a></li>
+          <li><a href="blog.html" data-nav data-section="blog">Blog</a></li>
+          <li><a href="gallery.html" data-nav>Gallery</a></li>
+          <li><a href="contact.html" aria-current="page" data-nav>Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn--ghost" href="get-involved.html" data-nav>Become a member</a>
+          <a class="btn" href="donate.html" data-nav>Donate</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+<header class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol></nav>
+    <p class="eyebrow">We’d love to hear from you</p>
+    <h1>Get in touch</h1>
+    <p class="lead">Whether you’re the parent of a newly diagnosed child, an educator, a well-wisher, or someone who simply wants to help — there’s a way to reach the right person.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:2rem" aria-label="Ways to reach us">
+  <div class="wrap grid grid--3">
+    <div class="card card--sage">
+      <h2 style="font-size:1.3rem">Email us</h2>
+      <p><a href="mailto:autismsocietyofindia2006@gmail.com" style="overflow-wrap:anywhere">autismsocietyofindia2006@gmail.com</a></p>
+      <p class="small">Parent volunteers reply within 2 business days.</p>
+    </div>
+    <div class="card">
+      <h2 style="font-size:1.3rem">Helpline</h2>
+      <p><strong>Coming soon</strong></p>
+      <p class="small">A dedicated helpline is being set up. Until then, please email us.</p>
+    </div>
+    <div class="card card--sun">
+      <h2 style="font-size:1.3rem">Visit us</h2>
+      <address style="font-style:normal">#76, Akash Ganga, Green Park Layout, Hallehalli, TC Palya, KR Puram, Bangalore, Karnataka 560036 <span class="small">(near Diamond College)</span></address>
+      <a class="more" href="https://www.google.com/maps/search/?api=1&amp;query=Autism+Society+of+India+TC+Palya+KR+Puram+Bangalore+560036" rel="noopener">Open in Google Maps <span class="sr-only">(external site)</span> ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint" aria-labelledby="form-h">
+  <div class="wrap" style="max-width:48rem">
+    <h2 id="form-h">Send us a message</h2>
+    <p>Tell us a little about your query so we can route it to the right person. Fields marked <strong>required</strong> must be filled in.</p>
+
+    <div class="error-summary" data-error-summary tabindex="-1" hidden role="alert">
+      <h2>Please fix the following</h2>
+      <ul></ul>
+    </div>
+    <div class="success" data-form-success tabindex="-1" hidden role="status">
+      <p><strong>Thank you!</strong> Your message has opened in your email app — please review it and press send.</p>
+      <p style="margin:0">If your email app didn’t open, email us directly at <a href="mailto:autismsocietyofindia2006@gmail.com">autismsocietyofindia2006@gmail.com</a>.</p>
+    </div>
+
+    <form class="panel" data-contact-form action="mailto:autismsocietyofindia2006@gmail.com" method="post" enctype="text/plain">
+      <div class="form-grid">
+        <div class="field">
+          <label for="c-name">Your name <span class="small">(required)</span></label>
+          <input type="text" id="c-name" name="name" autocomplete="name" required aria-describedby="c-name-err">
+          <p class="error" id="c-name-err" data-error-for="c-name" hidden>Enter your name</p>
+        </div>
+        <div class="field">
+          <label for="c-role">I am a…</label>
+          <select id="c-role" name="role">
+            <option>Parent / caregiver</option>
+            <option>Professional (therapist, teacher, doctor)</option>
+            <option>Donor / well-wisher</option>
+            <option>Educator / institution</option>
+            <option>Media / researcher</option>
+            <option>Interested in volunteering</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="c-email">Email <span class="small">(required)</span></label>
+          <input type="email" id="c-email" name="email" autocomplete="email" required aria-describedby="c-email-err">
+          <p class="error" id="c-email-err" data-error-for="c-email" hidden>Enter a valid email address, like name@example.com</p>
+        </div>
+        <div class="field">
+          <label for="c-phone">Phone <span class="small">(optional)</span></label>
+          <input type="tel" id="c-phone" name="phone" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="c-city">City</label>
+          <input type="text" id="c-city" name="city" autocomplete="address-level2">
+        </div>
+        <div class="field">
+          <label for="c-topic">What’s this about?</label>
+          <select id="c-topic" name="topic">
+            <option value="General query">General query</option>
+            <option value="Newly diagnosed - need guidance">Newly diagnosed — need guidance</option>
+            <option value="Membership">Membership</option>
+            <option value="Donations" data-key="donation">Donations</option>
+            <option value="Resource / centre referral">Resource or centre referral</option>
+            <option value="Volunteer / partnership" data-key="volunteer">Volunteering or partnership</option>
+            <option value="Press / media">Press or media</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="c-message">Your message <span class="small">(required)</span></label>
+        <textarea id="c-message" name="message" required aria-describedby="c-message-err"></textarea>
+        <p class="error" id="c-message-err" data-error-for="c-message" hidden>Enter your message</p>
+      </div>
+      <div class="check-field">
+        <input type="checkbox" id="c-consent" required aria-describedby="c-consent-err">
+        <div>
+          <label for="c-consent">I understand ASI volunteers will reply by email or phone. My details will not be shared outside ASI.</label>
+          <p class="error" id="c-consent-err" data-error-for="c-consent" hidden>Tick the box to confirm you understand how we’ll contact you</p>
+        </div>
+      </div>
+      <button type="submit" class="btn">Send message</button>
+    </form>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="faq-h">
+  <div class="wrap faq" style="max-width:48rem">
+    <h2 id="faq-h">Frequently asked questions</h2>
+    <details>
+      <summary>My child has just been diagnosed. Where do I start?</summary>
+      <div>
+        <p>Take a breath — you are not alone. Email <a href="mailto:autismsocietyofindia2006@gmail.com">autismsocietyofindia2006@gmail.com</a> and a parent volunteer will reach out. They can guide you through the first steps: confirming the diagnosis, finding therapy and schools near you, applying for the UDID card, and joining a parent support circle.</p>
+        <p>You can also <a href="get-involved.html">become a member</a> to join our parent groups, and read our <a href="about-autism.html#early">guide to early steps</a>.</p>
+      </div>
+    </details>
+    <details>
+      <summary>Does ASI provide therapy directly?</summary>
+      <div><p>ASI is a parent-run advocacy and resource society — we don’t run a clinic. We connect you with therapy centres, schools and professionals through our <a href="resources.html">resources directory</a>, and support you through workshops and peer groups.</p></div>
+    </details>
+    <details>
+      <summary>How do I donate?</summary>
+      <div><p>Visit our <a href="donate.html">donation page</a> for bank transfer details. ASI is a registered society, and you’ll receive a receipt within 7 business days.</p></div>
+    </details>
+    <details>
+      <summary>I’m a professional or therapist. How can I get involved?</summary>
+      <div><p>We welcome professionals as members (200+ already are), as volunteer speakers at parent workshops, and as contributors to our resources directory. Email us with your background and how you’d like to help.</p></div>
+    </details>
+    <details>
+      <summary>When will the helpline be live?</summary>
+      <div><p>A dedicated helpline number is in the works and will be published here as soon as it’s active. Until then, please email us — our parent volunteers will respond promptly.</p></div>
+    </details>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <p class="footer-brand">Autism Society of India</p>
+        <p>A national, parent-run society supporting families across India in navigating autism since 2006. A community of 750+ parent members and 200+ professionals.</p>
+        <p class="small">Registered under the Karnataka Societies Act · BLU-S160-2006-07</p>
+      </div>
+      <nav aria-label="Explore">
+        <h2 class="footer-h">Explore</h2>
+        <ul>
+          <li><a href="about-autism.html">About autism</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="reports.html">Reports &amp; documents</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Get involved">
+        <h2 class="footer-h">Get involved</h2>
+        <ul>
+          <li><a href="get-involved.html">Become a member</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="get-involved.html#volunteer">Volunteer</a></li>
+          <li><a href="http://www.nals.in/?page=search_programs&amp;prg_category_id=6#result" rel="noopener">Trek for Autism <span class="sr-only">(external site)</span></a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h">Sister NGOs</h2>
+        <ul>
+          <li><a href="https://alfaa.org/" rel="noopener">ALFAA <span class="sr-only">(external site)</span></a></li>
+          <li><a href="http://www.amazetrust.org/" rel="noopener">Amaze Charitable Trust <span class="sr-only">(external site)</span></a></li>
+        </ul>
+        <h2 class="footer-h">Contact</h2>
+        <p><a href="mailto:autismsocietyofindia2006@gmail.com">autismsocietyofindia2006@gmail.com</a><br>Replies within 2 business days</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© 2026 Autism Society of India. All rights reserved.</p>
+      <p><a href="#main" class="to-top">Back to top <span aria-hidden="true">↑</span></a></p>
+    </div>
+  </footer>
+
+  <div class="sr-only" aria-live="polite" id="live-region"></div>
+</body>
+</html>

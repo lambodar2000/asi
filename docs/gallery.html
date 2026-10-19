@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery · Autism Society of India</title>
+  <meta name="description" content="Photos from Autism Society of India workshops, parent meet-ups and community events.">
+  <meta name="theme-color" content="#2F5E9E">
+  <link rel="icon" href="https://autismsocietyofindia.org/wp-content/uploads/2016/11/cropped-asi_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    // Apply saved accessibility preferences before first paint to avoid a flash.
+    (function () {
+      try {
+        var p = JSON.parse(localStorage.getItem("asi-a11y") || "{}");
+        var d = document.documentElement;
+        Object.keys(p).forEach(function (k) { if (p[k]) d.setAttribute("data-" + k, p[k]); });
+      } catch (e) {}
+    })();
+  </script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body class="">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="topbar">
+    <div class="wrap topbar__inner">
+      <p class="topbar__contact">
+        <a href="mailto:autismsocietyofindia2006@gmail.com"><span aria-hidden="true">✉</span> autismsocietyofindia2006@gmail.com</a>
+        <span class="topbar__sep" aria-hidden="true">·</span>
+        <span>Helpline: coming soon</span>
+      </p>
+      <div class="topbar__tools">
+        <button class="tool-btn" type="button" data-read-aloud aria-pressed="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg>
+          <span data-read-label>Read aloud</span>
+        </button>
+        <button class="tool-btn" type="button" aria-expanded="false" aria-controls="a11y-panel" data-a11y-toggle>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2"/><path d="M20 8.5c-2.6.7-5.3 1-8 1s-5.4-.3-8-1l-.5 2c2 .5 4 .9 6 1v3.3L7.8 21l1.9.7L12 16l2.3 5.7 1.9-.7-1.7-6.2V11.5c2-.1 4-.5 6-1l-.5-2z"/></svg>
+          Accessibility
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <section id="a11y-panel" class="a11y-panel" aria-labelledby="a11y-title" hidden>
+    <div class="wrap a11y-panel__inner">
+      <div class="a11y-panel__head">
+        <h2 id="a11y-title">Make this site work for you</h2>
+        <p>Your choices are saved on this device.</p>
+      </div>
+      <div class="a11y-grid">
+        <fieldset class="a11y-group">
+          <legend>Text size</legend>
+          <div class="seg" role="group">
+            <button type="button" data-pref="size" data-value="" aria-pressed="true">Standard</button>
+            <button type="button" data-pref="size" data-value="lg" aria-pressed="false">Large</button>
+            <button type="button" data-pref="size" data-value="xl" aria-pressed="false">Largest</button>
+          </div>
+        </fieldset>
+        <fieldset class="a11y-group">
+          <legend>Colours</legend>
+          <div class="seg" role="group">
+            <button type="button" data-pref="theme" data-value="" aria-pressed="true">Auto</button>
+            <button type="button" data-pref="theme" data-value="light" aria-pressed="false">Light</button>
+            <button type="button" data-pref="theme" data-value="dark" aria-pressed="false">Dark</button>
+            <button type="button" data-pref="theme" data-value="contrast" aria-pressed="false">High contrast</button>
+          </div>
+        </fieldset>
+        <div class="a11y-group a11y-switches">
+          <label class="switch"><input type="checkbox" data-pref="calm" value="on"><span>Calm mode <small>Muted colours, no animation</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="font" value="readable"><span>Readable font <small>Wider, rounder letters</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="spacing" value="wide"><span>Extra spacing <small>More room between lines and words</small></span></label>
+          <label class="switch"><input type="checkbox" data-pref="links" value="underline"><span>Highlight links <small>Underline and outline every link</small></span></label>
+        </div>
+      </div>
+      <div class="a11y-panel__foot">
+        <button type="button" class="btn btn--ghost" data-a11y-reset>Reset to default</button>
+        <button type="button" class="btn" data-a11y-close>Done</button>
+      </div>
+    </div>
+  </section>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/cropped-asi_logo.png" alt="" width="44" height="44">
+        <span class="brand__text"><strong>Autism Society of India</strong><small>Supporting families since 2006</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html" data-nav>Home</a></li>
+          <li class="has-sub" data-section="about">
+            <button type="button" aria-expanded="false" class="sub-toggle">About us</button>
+            <ul class="sub">
+              <li><a href="about-autism.html" data-nav>About autism</a></li>
+              <li><a href="objectives.html" data-nav>Our objectives</a></li>
+              <li><a href="team.html" data-nav>Our team</a></li>
+              <li><a href="reports.html" data-nav>Reports &amp; documents</a></li>
+            </ul>
+          </li>
+          <li><a href="activities.html" data-nav>Activities</a></li>
+          <li><a href="resources.html" data-nav>Resources</a></li>
+          <li><a href="blog.html" data-nav data-section="blog">Blog</a></li>
+          <li><a href="gallery.html" aria-current="page" data-nav>Gallery</a></li>
+          <li><a href="contact.html" data-nav>Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn--ghost" href="get-involved.html" data-nav>Become a member</a>
+          <a class="btn" href="donate.html" data-nav>Donate</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+<header class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Gallery</li></ol></nav>
+    <p class="eyebrow">Our community</p>
+    <h1>Gallery</h1>
+    <p class="lead">Moments from workshops, parent meet-ups and community events. Select a photo to see it larger; use the arrow keys to move between photos.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:2rem" aria-label="Photos">
+  <div class="wrap">
+    <div class="filters" data-filter-group="photos" role="group" aria-label="Filter photos">
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" class="chip" data-filter="events" aria-pressed="false">Workshops &amp; events</button>
+      <button type="button" class="chip" data-filter="community" aria-pressed="false">Community</button>
+      <span class="small" data-filter-count aria-live="polite"></span>
+    </div>
+    <ul class="gallery" id="photos">
+      <li data-tags="events"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406864.jpg" data-caption="Workshop on Letter of Intent and Private Trust, Bengaluru, 2026"><img src="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406864.jpg" alt="Workshop on Letter of Intent and Private Trust, Bengaluru, 2026" loading="lazy"><span class="cap" aria-hidden="true">Workshop on Letter of Intent and Private Trust, Bengaluru, 2026</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="events"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406888-723x1024.jpg" data-caption="Dr. Kiran Gupta presenting at the Letter of Intent workshop"><img src="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406888-723x1024.jpg" alt="Dr. Kiran Gupta presenting at the Letter of Intent workshop" loading="lazy"><span class="cap" aria-hidden="true">Dr. Kiran Gupta presenting at the Letter of Intent workshop</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="events"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406858-1024x576.jpg" data-caption="Participants at the Letter of Intent workshop"><img src="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406858-1024x576.jpg" alt="Participants at the Letter of Intent workshop" loading="lazy"><span class="cap" aria-hidden="true">Participants at the Letter of Intent workshop</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="events"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406852-1024x768.jpg" data-caption="Parents and self-advocates at the Letter of Intent workshop"><img src="https://autismsocietyofindia.org/wp-content/uploads/2026/05/1000406852-1024x768.jpg" alt="Parents and self-advocates at the Letter of Intent workshop" loading="lazy"><span class="cap" aria-hidden="true">Parents and self-advocates at the Letter of Intent workshop</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG-20160910-WA0003.jpg" data-caption="Parent meet-up, Bengaluru"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG-20160910-WA0003.jpg" alt="Parent meet-up, Bengaluru" loading="lazy"><span class="cap" aria-hidden="true">Parent meet-up, Bengaluru</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5531.jpg" data-caption="Community outreach event, Bengaluru"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5531.jpg" alt="Community outreach event, Bengaluru" loading="lazy"><span class="cap" aria-hidden="true">Community outreach event, Bengaluru</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="events"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/DSCF6013.jpg" data-caption="Computer training workshop, Bengaluru"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/DSCF6013.jpg" alt="Computer training workshop, Bengaluru" loading="lazy"><span class="cap" aria-hidden="true">Computer training workshop, Bengaluru</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="events"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2025/11/GAC_2026-pdf.jpg" data-caption="Global Autism Convention poster"><img src="https://autismsocietyofindia.org/wp-content/uploads/2025/11/GAC_2026-pdf.jpg" alt="Global Autism Convention poster" loading="lazy"><span class="cap" aria-hidden="true">Global Autism Convention poster</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5467.jpg" data-caption="ASI community gathering"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5467.jpg" alt="ASI community gathering" loading="lazy"><span class="cap" aria-hidden="true">ASI community gathering</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5549.jpg" data-caption="ASI community gathering"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5549.jpg" alt="ASI community gathering" loading="lazy"><span class="cap" aria-hidden="true">ASI community gathering</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5556.jpg" data-caption="ASI community gathering"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5556.jpg" alt="ASI community gathering" loading="lazy"><span class="cap" aria-hidden="true">ASI community gathering</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/DSCF8796.jpg" data-caption="ASI event"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/DSCF8796.jpg" alt="ASI event" loading="lazy"><span class="cap" aria-hidden="true">ASI event</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5275.jpg" data-caption="ASI community programme"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5275.jpg" alt="ASI community programme" loading="lazy"><span class="cap" aria-hidden="true">ASI community programme</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5331.jpg" data-caption="ASI community programme"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5331.jpg" alt="ASI community programme" loading="lazy"><span class="cap" aria-hidden="true">ASI community programme</span><span class="sr-only">— open larger</span></button></li>
+      <li data-tags="community"><button type="button" data-lightbox data-full="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5333.jpg" data-caption="ASI community programme"><img src="https://autismsocietyofindia.org/wp-content/uploads/2016/11/IMG_5333.jpg" alt="ASI community programme" loading="lazy"><span class="cap" aria-hidden="true">ASI community programme</span><span class="sr-only">— open larger</span></button></li>
+    </ul>
+  </div>
+</section>
+
+<dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+  <figure>
+    <img src="" alt="">
+    <figcaption></figcaption>
+  </figure>
+  <div class="lightbox__bar">
+    <button type="button" data-lb-prev><span aria-hidden="true">←</span> Previous</button>
+    <span data-lb-pos></span>
+    <button type="button" data-lb-next>Next <span aria-hidden="true">→</span></button>
+    <button type="button" data-lb-close>Close</button>
+  </div>
+</dialog>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <p class="footer-brand">Autism Society of India</p>
+        <p>A national, parent-run society supporting families across India in navigating autism since 2006. A community of 750+ parent members and 200+ professionals.</p>
+        <p class="small">Registered under the Karnataka Societies Act · BLU-S160-2006-07</p>
+      </div>
+      <nav aria-label="Explore">
+        <h2 class="footer-h">Explore</h2>
+        <ul>
+          <li><a href="about-autism.html">About autism</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="reports.html">Reports &amp; documents</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Get involved">
+        <h2 class="footer-h">Get involved</h2>
+        <ul>
+          <li><a href="get-involved.html">Become a member</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="get-involved.html#volunteer">Volunteer</a></li>
+          <li><a href="http://www.nals.in/?page=search_programs&amp;prg_category_id=6#result" rel="noopener">Trek for Autism <span class="sr-only">(external site)</span></a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h">Sister NGOs</h2>
+        <ul>
+          <li><a href="https://alfaa.org/" rel="noopener">ALFAA <span class="sr-only">(external site)</span></a></li>
+          <li><a href="http://www.amazetrust.org/" rel="noopener">Amaze Charitable Trust <span class="sr-only">(external site)</span></a></li>
+        </ul>
+        <h2 class="footer-h">Contact</h2>
+        <p><a href="mailto:autismsocietyofindia2006@gmail.com">autismsocietyofindia2006@gmail.com</a><br>Replies within 2 business days</p>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <p>© 2026 Autism Society of India. All rights reserved.</p>
+      <p><a href="#main" class="to-top">Back to top <span aria-hidden="true">↑</span></a></p>
+    </div>
+  </footer>
+
+  <div class="sr-only" aria-live="polite" id="live-region"></div>
+</body>
+</html>
